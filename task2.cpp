@@ -3,13 +3,13 @@ int main(){
 	int arr[10];
 	int n;
 	int count=0;
-	for(int i=0;i<10;i++){
+	for(int i=1;i<11;i++){
 	printf("Entery number %d:",i);
 	scanf(" %d",&arr[i]);
 	}
  	printf("Which number do u want to search:");
  	scanf(" %d",&n);
- 	for(int i=0;i<10;i++){
+ 	for(int i=1;i<11;i++){
  		if(arr[i]==n){
  		count++;
 		}
@@ -22,3 +22,4 @@ int main(){
 	}
 	return 0;
 }
+
